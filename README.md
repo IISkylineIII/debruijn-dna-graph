@@ -37,19 +37,20 @@ result_graph = de_bruijn_graph(k_value, input_text)
 for node, neighbors in result_graph.items():
     print(f"{node}: {' '.join(neighbors)}")
 
-Output Format
+```
+
+### Output Format
 
 Each line in the output shows a node followed by the list of its connected nodes (edges):
 TCCCGGTGAAC: CCCGGTGAACA
 CCCGGTGAACA: CCGGTGAACAA
 ...
 
-Requirements
+### Requirements
 Python 3.6 or higher
-
 No external dependencies are required.
 
-License
+### License
 This project is licensed under the MIT License.
 
 
